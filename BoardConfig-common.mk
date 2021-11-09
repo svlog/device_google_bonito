@@ -17,6 +17,8 @@
 include build/make/target/board/BoardConfigMainlineCommon.mk
 include build/make/target/board/BoardConfigPixelCommon.mk
 
+include device/custom/sepolicy/sepolicy.mk
+
 TARGET_BOARD_PLATFORM := sdm710
 TARGET_BOARD_INFO_FILE := device/google/bonito/board-info.txt
 USES_DEVICE_GOOGLE_B4S4 := true
