@@ -11,3 +11,6 @@ BOARD_VENDOR_SEPOLICY_DIRS += device/google/bonito/sepolicy/tracking_denials
 # Pixel-wide policy
 BOARD_VENDOR_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/ramdump/common
 BOARD_VENDOR_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/powerstats
+
+# system_ext
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += device/google/bonito-sepolicy/system_ext/private
